@@ -1,0 +1,51 @@
+.tweetpost{
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+}
+
+.tweetpost>form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tweetpost-input{
+    padding: 20px;
+    display: flex;
+}
+
+.tweetpost-input>input{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none ;
+}
+
+.tweetpost-button{
+    background-color: var(--twitter-color) !important ;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 30px !important;
+    margin-top:20px !important;
+   margin-left: 80px !important;
+   align-items: flex-end;
+   /* margin-bottom: auto !important; */
+}
+
+
+.itemtopost{
+    color: var(--twitter-color);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.itemtopost .MuiSvgIcon-root{
+    padding: 10px;
+}
+
