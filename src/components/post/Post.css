@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .post{
     display: flex;
     align-items: flex-start;
@@ -44,51 +43,4 @@
 .post-header-description{
     margin-bottom: 10px;
     font-size: 15px;
-=======
-.post{
-    display: flex;
-    align-items: flex-start;
-    /* border-bottom: 1px solid var(--twitter-background); */
-    padding-bottom: 10px;
-}
-
-.post-content>img{
-    border-radius: 20px;
-    width: 100%;
-}
-
-.post-footer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    color: grey;
-    margin-right: 5px;
-}
-.post-headertext>h3{
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-
-.post-bagde{
-    font-size: 14px !important;
-    color: var(--twitter-color);
-}
-
-.post-header-username{
-    font-weight: 600;
-    font-size: 14px;
-    color: grey;
-}
-
-.post-content{
-    flex: 1;
-    padding: 10px;
-}
-.post-avatar{
-    padding: 20px;
-}
-.post-header-description{
-    margin-bottom: 10px;
-    font-size: 15px;
->>>>>>> 0b5ae1b8b412baea96c19d0781b941b0290ad27f
 }
