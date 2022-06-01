@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sidebarOptions{
     display: flex;
     align-items: center;
@@ -26,3 +27,33 @@
     color: var(--twitter-color);
 }
 
+=======
+.sidebarOptions{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOptions .MuiSvgIcon-root{
+    padding:20px ;
+}
+
+.sidebarOptions>h2{
+
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sidebarOptions:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: var(--twitter-color);
+}
+.sidebar-twittericon:hover{
+    background-color: #e8f5fe;
+    border-radius: 50%;
+}
+.sidebarOptions--active{
+    color: var(--twitter-color);
+}
+
+>>>>>>> 0b5ae1b8b412baea96c19d0781b941b0290ad27f

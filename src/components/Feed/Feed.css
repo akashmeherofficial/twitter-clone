@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .feed {
    
     flex: 0.4;
@@ -30,4 +31,38 @@
     font-size: 20px;
     font-weight: 800;
     background-color: #fff;
+=======
+.feed {
+   
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+   
+  }
+  
+ 
+  .feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  
+  .feed-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: none;
+  }
+  
+  .feed-header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #fff;
+>>>>>>> 0b5ae1b8b412baea96c19d0781b941b0290ad27f
   }
